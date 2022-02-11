@@ -67,6 +67,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
-          arguments: sonarqube -Psonar.organization=resilience4j
+          arguments: sonarqube -Psonar.organization=shubhamrwt
           dependencies-cache-enabled: true
           configuration-cache-enabled: true
